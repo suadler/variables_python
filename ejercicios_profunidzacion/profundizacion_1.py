@@ -31,3 +31,27 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+print("Eingabe erste Dezimalzahl")
+number_1 = float(input())
+
+print("Eingabe zweite Dezimalzan")
+number_2 = float(input())
+
+print("die erste Dezimalzahl lautet", number_1)
+print("die zweite Dezimalzahl lautet", number_2)
+
+test_sum = number_1 + number_2
+test_subtraction = number_1 - number_2
+test_multiplication = number_1 * number_2
+test_division = number_1 / number_2
+test_exponent = number_1 ** number_2
+
+print("die Summe von", number_1, "und", number_2, "ist", test_sum)
+
+print("die Subraktion von", number_1, "und", number_2, "ist", test_subtraction)
+
+print("die Multiplikation von", number_1, "und", number_2, "ist", test_multiplication)
+
+print("die Division von", number_1, "und", number_2, "ist", test_division)
+
+print("der Exponent von", number_1, "und", number_2, "ist", test_exponent)

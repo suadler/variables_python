@@ -33,3 +33,20 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+print("Geben Sie bitte Ihren vor- und Nachnamen ein")
+complete_name = str(input())
+
+print("Geben Sie bitte Ihre DNI ein")
+dni = int(input())
+
+print("Geben Sie bitte Ihr Alter ein")
+age = int(input())
+
+print("Geben Sie bitte Ihre Groesse ein")
+height =float(input())
+
+#nombre cmpleto y DNI
+print("Name:", complete_name, "DNI:", dni)
+
+#nombre, edad, altura
+print("Name:", complete_name, "Alter:", age, "Groesse:", height)

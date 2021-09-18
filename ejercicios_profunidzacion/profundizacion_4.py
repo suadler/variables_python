@@ -45,3 +45,36 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+print("insert complete name of your father 1")
+name_father_1 = str(input())
+
+print ("insert complete name of your father 2")
+name_father_2 = str(input())
+
+print ("insert name of your child")
+name_child = str(input())
+
+last_name_father_1 = name_father_1.split(" ")
+last_name_father_2 = name_father_2.split(" ")
+complete_surname_child = last_name_father_1[-1], last_name_father_2[-1]
+print ("complete name of the child:", complete_surname_child, name_child)
+
+#prueba
+Name_Vater = "Heinz Egon Brecht"
+print(Name_Vater)
+
+Name_Mutter = "Rosemarie Friede Zettler"
+print(Name_Mutter)
+
+Vorname_Kind = "Heidi"
+print(Vorname_Kind)
+
+Nachname_Vater = Name_Vater.split(" ")[-1]
+print(Nachname_Vater)
+Nachname_Mutter = Name_Mutter.split(" ")[-1]
+print(Nachname_Vater)
+
+Kompletter_Name_Kind = Nachname_Vater, Nachname_Mutter, Vorname_Kind
+print("Das Kind heisst mit kompletten Namen:", Kompletter_Name_Kind)
+
+
